@@ -8,7 +8,9 @@ from registerservice import RegisterCenter
 ```
 
 #初始化连接
+```python
 rs = RegisterCenter("192.168.1.2:2181")
+```
 
 #服务提供方服务启动前注册
 #服务提供方注册服务:服务名：fill   注册类型： provider 是服务提供方，服务提供方地址：{"ip": "192.168.1.33", "port": "8000"}
